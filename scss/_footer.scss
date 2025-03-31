@@ -1,0 +1,22 @@
+footer {
+    background-color: #000;
+    color: #ffd700;
+    font-size: bold;
+    padding: 10px 0;
+
+    a {
+        color: #ffd700;
+        &:hover{
+            color: #6a6825;
+        }
+    }
+    p {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    svg{
+        width: 40px;
+        height: 40px;
+        transition: all 0.3s ease;
+    }
+}

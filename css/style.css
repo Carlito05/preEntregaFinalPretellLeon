@@ -1,0 +1,67 @@
+body {
+  padding-top: 60px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #ffd700;
+  font-size: x-large;
+  padding-top: 40px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #746a2c;
+}
+
+.navbar-toggler {
+  background-color: black;
+  border-color: #ffd700;
+}
+
+.navbar-toggler-icon {
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23ffd700' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+footer {
+  background-color: #000;
+  color: #ffd700;
+  font-size: bold;
+  padding: 10px 0;
+}
+footer a {
+  color: #ffd700;
+}
+footer a:hover {
+  color: #6a6825;
+}
+footer p {
+  font-size: 14px;
+  padding-top: 10px;
+}
+footer svg {
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s ease;
+}
+
+body {
+  padding-top: 0px;
+}
+
+.navbar {
+  z-index: 1050;
+}
+
+main {
+  padding-top: 200px;
+}
+
+.navbar-container {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/*# sourceMappingURL=style.css.map */
