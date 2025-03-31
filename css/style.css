@@ -44,6 +44,15 @@ footer svg {
   transition: all 0.3s ease;
 }
 
+.bg-image-index {
+  background-image: url("../img/IMG_0534.jpg");
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
 body {
   padding-top: 0px;
 }
@@ -62,6 +71,19 @@ main {
 
 footer {
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+.main-text-index {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.9rem;
+  color: rgb(249, 249, 146);
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
