@@ -6,3 +6,13 @@
     width: 100vw;
     height: 100vh;
 }
+
+.bg-image-adm {
+    background-image: url('../img/Perros-y-gatos-juntos.jpg');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
