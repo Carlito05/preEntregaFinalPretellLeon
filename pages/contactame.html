@@ -8,6 +8,7 @@
     <title>Esther Fotografía</title>
 </head>
 <body>
+    <div class="bg-image-contactame"></div>
     <header>
         <nav class="navbar navbar-expand-md navbar-container">
             <div class="container">
@@ -32,6 +33,40 @@
             </div>
         </nav>
     </header>
+
+    <main class="contactame-formulario">
+        <h1 class="text-center-contactame">Reservaciones</h1>
+    
+        <form action="" class="container-formulario bg-dark p-4 ">
+            <fieldset class="border p-4">
+                <legend class="w-auto text-white">Envíame tu reserva o cualquier consulta completando los campos.</legend>
+    
+                <div class="mb-3">
+                    <label for="nombre" class="form-label text-white">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Tu Nombre">
+                </div>
+    
+                <div class="mb-3">
+                    <label for="telefono" class="form-label text-white">Teléfono</label>
+                    <input type="tel" class="form-control" id="telefono" placeholder="Tu Número de Teléfono">
+                </div>
+    
+                <div class="mb-3">
+                    <label for="correo" class="form-label text-white">Correo</label>
+                    <input type="email" class="form-control" id="correo" placeholder="Tu Email">
+                </div>
+    
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label text-white">Mensaje</label>
+                    <textarea id="mensaje" class="form-control" rows="4"></textarea>
+                </div>
+    
+                <div class="mb-3 text-center">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
 
     <footer class="d-flex justify-content-between align-items-center position-fixed bottom-0 w-100 p-3">
         <div>
